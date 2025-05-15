@@ -1,0 +1,17 @@
+:root{
+    --main-color: rgb(23, 5, 36);
+    --font-color: rgb(246, 252, 226);
+}
+body {
+    background-color: var(--main-color);
+}
+html {
+    font-size: 16px;
+    color: var(--font-color);
+}
+.something {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem ;
+}
